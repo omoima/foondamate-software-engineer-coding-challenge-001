@@ -1,4 +1,2 @@
-###### Requirements without Version Specifiers ######
-nose
+# Requirements without Version Specifiers ##
 requests
-
