@@ -29,7 +29,12 @@ def filter(start, end):
         print("Dates specified are invalid.")
     return final
 
+
 def print_graph(list):
+    if len(list) == 0:
+        print("No dates are within range")
+        return
+
     x_array = []
     y_array = []
     for base in list:

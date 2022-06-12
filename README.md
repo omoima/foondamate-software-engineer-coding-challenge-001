@@ -28,4 +28,7 @@ Flags:
 
     - "-s 01-01-2022" means start date is "01-01-2022"
 
-Full command example: "python main.py -e 01-01-2022 -s 01-01-2022"
+Full command example: "python main.py -e 01-01-2022 -s 05-01-2022"
+
+
+![Example graph](Images/example.png)

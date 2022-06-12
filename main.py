@@ -10,6 +10,7 @@ if len(sys.argv) != 5:
     parser.print_help()
 args = parser.parse_args()
 
+
 if __name__ == '__main__':
     start = dateparser.parse(args.s, settings={'DATE_ORDER': 'DMY'})
     end = dateparser.parse(args.e, settings={'DATE_ORDER': 'DMY'})

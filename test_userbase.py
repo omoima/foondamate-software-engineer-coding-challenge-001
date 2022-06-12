@@ -42,5 +42,6 @@ class Test_Userbase(unittest.TestCase):
         response = api.filter(datetime.strptime('01-05-2022','%d-%m-%Y').date(),datetime.strptime('11-05-2022','%d-%m-%Y').date())
         self.assertTrue(len(response) == 0)
 
+
 if __name__ == '__main__':
     unittest.main()
